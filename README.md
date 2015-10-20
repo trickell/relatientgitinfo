@@ -10,6 +10,41 @@ This provides an overall explanation of our git flow, and how to manage the repo
   <li>A Text Editor of some sort</li>
 </ul>
 
+# Setup By Machine
+<ul>
+ <li><b>Installing PHP / MySQL / Apache</b>
+ <p>
+   <strong>OSX MACHINE: </strong> To get started on an OSX machine you need to start by installing PHP, MySQL, and Apache. There are several ways to go about doing this, I am going to point to the easiest way to start. MAMP is by far the easiest when it comes to setting up all 3 on a machine. You can find the download by <a href="https://www.mamp.info/en/downloads/">Following this Link</a>. Once there, just get the newest version, and follow the wizard to install. In OSX, Your htdocs folder will be under your /Applications/MAMP/htdocs path.
+   </p>
+   <p>
+   <strong>LINUX MACHINE: </strong> To get started on Linux, just install the LAMP stack. Based on your distro, you might need to find different directions. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu">Here is a link and guide</a> on how to install the LAMP stack via Ubuntu. In ubuntu, your folder will be under /var/www path.
+   </p>
+ </li>
+ <li><b>Installing GIT</b>
+ <p>
+ After your first step, to install GIT, follow the link provided (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the directions to install GIT by your machine type. Once GIT is installed, you can check by opening up a terminal / command line tool and running the "git" command to make sure it installed correctly.
+ <p>
+ </li>
+ <li><b>Installing Composer</b>
+ <p>
+ Installing Composer works the same way on both machines. Just follow the link provided (https://getcomposer.org/download) and follow the instructions on this page to get composer up
+ and running. To install it globally, make sure it gets moved to your /usr/local/bin folder as composer. Then you can run it anywhere as "composer install" without having to give it a direct path.
+ </p>
+ </li>
+ <li><b>Installing Diffmerge</b>
+ <p>
+ To install diffmerge, follow the link provided (https://sourcegear.com/diffmerge/downloads.php) and based on your OS, choose the correct download. Just use the instructions / wizard provided to install it. Once installed, you need to set this up with git to be your main merge tool. You can do this by running this command in the terminal: "git config --global merge.tool diffmerge". This will modify the global config file for git and set diffmerge as the tool to be used when doing merges.
+ </p>
+ </li>
+ <li><b>Installing Text Tools</b>
+ <p>
+ Last but not least, you need a way to edit / save files. I've found a new favorite free text editor that I'll point your way, but any IDE or Text editor will work. I use Jetbrains PHPStorm as my IDE, but currently, my favorite free text editor is one called Atom. It's a very configurable text editor that just came out not too long ago with a great backing. This can be found by following this link: https://atom.io/
+ </p>
+ </li>
+</ul>
+   
+  
+
 # Git Clone URL
 Most everything you need to do can be done in terminal when it comes to git
 http://10.135.5.101:/var/www/html/repository
