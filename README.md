@@ -8,6 +8,12 @@ This provides an overall explanation of our git flow, and how to manage the repo
   <li>composer <a href="https://getcomposer.org/">Found Here</a> (Installation Instructions on the site)</li>
   <li>diffmerge</li>
   <li>A Text Editor of some sort</li>
+  <li><b>Cheat Sheets</b>
+    <ul>
+    <li><a href="http://www.git-tower.com/blog/git-cheat-sheet/">Git Cheat Sheet</a></li>
+    <li><a href="http://cheats.jesse-obrien.ca/">Laravel Cheat Sheet</a>
+    </ul>
+  </li>
 </ul>
 
 # Setup By Machine
