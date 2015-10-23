@@ -102,6 +102,44 @@ Once pushed up, you will need to log into the remote server, go to the path of t
 </p>
 </div>
 
+# Other Useful Commands to Know
+<ul>
+  <li><b>git status</b>
+  <p>
+  This command shows the status of the commits between this branch and the one it's tracking. It also shows any modified files that need to be added or any files that need to be committed.
+  </p>
+  </li>
+  <li><b>git diff <filename></b>
+  <p>
+  This command shows the shows the differences that have happened since the last commit and the current changes. It's a good way to find out issues that might have happened between the commit and now if there are bugs in your code.
+  </p>
+  </li>
+  <li><b>git log OR git log --graph</b>
+  <p>
+  This shows a repository history of all the commits, merges, and authors creating these logs. The --graph allows for a nice graph to appear showing where the branches have split up and come together again, where the merges have happened as well. It's great for finding where there might have been issues in a git repository.
+  </p>
+  </li>
+  <li><b>git reset <filename></b>
+  <p>
+  This will unstage the file for the commit. It resets this file back to it's previous changes.
+  </p>
+  </li>
+  <li><b>git reset --hard</b>
+  <p>
+  This command will reset EVERY file back to the last commit. Only use this in emergency use if you need to wipe all changes and move back to the last commit.
+  </p>
+  </li>
+  <li><b>git stash</b>
+  <p>
+  This is a great pause button on work. When you have uncommitted changes in your repository, and you need to checkout another branch but don't want to lose those changes, this is how to do it. "git stash" gives you a clean working branch but records those changes to a place in the repository.
+  </p>
+  <b>git stash pop<b>
+  <p>
+  This is the command that allows us to return to those changes to the repository. It will allows us to check out a branch, and use "git stash pop" and return those changes we were working on into the repository.
+  </p>
+  </li>
+</ul>
+
 # Possible Git Conflicts
 <b>Branch Behind Conflict</b>
 ```
